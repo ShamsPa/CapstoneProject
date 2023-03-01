@@ -20,27 +20,21 @@ public class RetailHomePage extends BaseSetup {
 	// @FindBy(locatorType = "locator Value")
 	// public WebElement nameOfElement
 	
-	@FindBy(linkText = "TEKSCHOOL") // this is same as driver.findElement() 
+	@FindBy(linkText = "TEKSCHOOL") // this is same as driver.findElement() 
 	public WebElement tekschoolLogo;
-	
 	@FindBy(id = "searchInput")
 	public WebElement searchBarInput;
-	
 	@FindBy(id = "searchBtn")
 	public WebElement searchButton;
-	
 	@FindBy(xpath ="//img[contains(@alt,'Pokemon')]")
 	public WebElement pokemonImage;
-	
 	@FindBy(id ="signinLink")
 	public WebElement signInOption;
-	
 	@FindBy(xpath ="//a[text()='Account']")
 	public WebElement accountOption;
-	
-	@FindBy(xpath ="//span[text()='All']")
+	@FindBy(xpath = "//span[text()='All']")
 	public WebElement AllElements;
-	@FindBy (xpath = "div[@class='sidebar_content-item]//span")
+	@FindBy(xpath = "//div[@class='sidebar_content-item']//span")
 	public List<WebElement> sideBar;
 	
 }
