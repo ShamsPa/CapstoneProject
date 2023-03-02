@@ -17,6 +17,17 @@ public class RetailAccountPage extends BaseSetup {
     // syntax for storing UI elements using @FindBy annotations
     // @FindBy(locatorType = "locator Value")
     // public WebElement nameOfElement
+	//@FindBy(xpath ="//a[@id='accountLink']")
+	//public WebElement accountOption;
+	
+	@FindBy(xpath ="//input[@id='nameInput']")
+	public WebElement nameInput;
+	@FindBy (xpath ="//*[@id='personalPhoneInput']")
+	public WebElement phoneNumberField;
+	@FindBy (xpath ="//*[@id='personalUpdateBtn']")
+	public WebElement updateBtn;
+	@FindBy (xpath = "//div[text()='Personal Information Updated Successfully']")
+	public WebElement personlainfoUpdateMassage;
     
     @FindBy(xpath = "//img[@alt='profile pic']") // this is same as driver.findElement() 
     public WebElement accountProfilePicture;
