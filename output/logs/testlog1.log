@@ -238,3 +238,191 @@
 2023-03-02 13:34:17,125 [main] INFO logger_File - User update Name ‘NameValue’ and Phone ‘PhoneValue’
 2023-03-02 13:34:17,309 [main] INFO logger_File - User click on signUp button
 2023-03-02 13:34:18,182 [main] INFO logger_File - user is logged into account page
+2023-03-02 16:11:17,881 [main] INFO logger_File - User is on retail website
+2023-03-02 16:11:18,137 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 16:11:18,599 [main] INFO logger_File - user entered email and password
+2023-03-02 16:11:18,759 [main] INFO logger_File - user clicked on login button
+2023-03-02 16:11:19,205 [main] INFO logger_File - user is logged in into Account
+2023-03-02 16:11:19,441 [main] INFO logger_File - User click on Account option
+2023-03-02 16:16:22,974 [main] INFO logger_File - User is on retail website
+2023-03-02 16:16:23,177 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 16:16:23,625 [main] INFO logger_File - user entered email and password
+2023-03-02 16:16:23,777 [main] INFO logger_File - user clicked on login button
+2023-03-02 16:16:24,237 [main] INFO logger_File - user is logged in into Account
+2023-03-02 16:16:24,508 [main] INFO logger_File - User click on Account option
+2023-03-02 16:22:47,269 [main] INFO logger_File - User is on retail website
+2023-03-02 16:22:47,478 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 16:22:47,947 [main] INFO logger_File - user entered email and password
+2023-03-02 16:22:48,099 [main] INFO logger_File - user clicked on login button
+2023-03-02 16:22:48,568 [main] INFO logger_File - user is logged in into Account
+2023-03-02 16:22:48,817 [main] INFO logger_File - User click on Account option
+2023-03-02 16:26:23,680 [main] INFO logger_File - User is on retail website
+2023-03-02 16:26:23,937 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 16:26:24,366 [main] INFO logger_File - user entered email and password
+2023-03-02 16:26:24,518 [main] INFO logger_File - user clicked on login button
+2023-03-02 16:26:24,939 [main] INFO logger_File - user is logged in into Account
+2023-03-02 16:26:25,186 [main] INFO logger_File - User click on Account option
+2023-03-02 16:30:10,681 [main] INFO logger_File - User is on retail website
+2023-03-02 16:30:10,890 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 16:30:11,313 [main] INFO logger_File - user entered email and password
+2023-03-02 16:30:11,476 [main] INFO logger_File - user clicked on login button
+2023-03-02 16:30:12,210 [main] INFO logger_File - user is logged in into Account
+2023-03-02 16:30:12,456 [main] INFO logger_File - User click on Account option
+2023-03-02 23:16:33,173 [main] INFO logger_File - User is on retail website
+2023-03-02 23:16:33,486 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:16:34,008 [main] INFO logger_File - user entered email and password
+2023-03-02 23:16:34,198 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:16:34,648 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:16:34,910 [main] INFO logger_File - User click on Account option
+2023-03-02 23:26:34,749 [main] INFO logger_File - User is on retail website
+2023-03-02 23:26:35,011 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:26:35,474 [main] INFO logger_File - user entered email and password
+2023-03-02 23:26:35,630 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:26:36,096 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:26:36,345 [main] INFO logger_File - User click on Account option
+2023-03-02 23:26:36,920 [main] INFO logger_File - User entered the new Password
+2023-03-02 23:26:37,060 [main] INFO logger_File - User clicked on change passowrd
+2023-03-02 23:29:23,456 [main] INFO logger_File - User is on retail website
+2023-03-02 23:29:23,745 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:29:24,165 [main] INFO logger_File - user entered email and password
+2023-03-02 23:29:24,322 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:29:24,846 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:29:25,122 [main] INFO logger_File - User click on Account option
+2023-03-02 23:29:25,745 [main] INFO logger_File - User entered the new Password
+2023-03-02 23:29:25,911 [main] INFO logger_File - User clicked on change passowrd
+2023-03-02 23:41:47,830 [main] INFO logger_File - User is on retail website
+2023-03-02 23:41:48,058 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:41:48,499 [main] INFO logger_File - user entered email and password
+2023-03-02 23:41:48,657 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:41:49,049 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:41:49,304 [main] INFO logger_File - User click on Account option
+2023-03-02 23:41:49,900 [main] INFO logger_File - User entered the new Password
+2023-03-02 23:41:50,041 [main] INFO logger_File - User clicked on change passowrd
+2023-03-02 23:45:23,248 [main] INFO logger_File - User is on retail website
+2023-03-02 23:45:23,458 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:45:23,868 [main] INFO logger_File - user entered email and password
+2023-03-02 23:45:24,028 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:46:01,978 [main] INFO logger_File - User is on retail website
+2023-03-02 23:46:02,193 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:46:02,602 [main] INFO logger_File - user entered email and password
+2023-03-02 23:46:02,764 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:46:03,185 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:46:03,397 [main] INFO logger_File - User click on Account option
+2023-03-02 23:46:04,007 [main] INFO logger_File - User entered the new Password
+2023-03-02 23:46:04,152 [main] INFO logger_File - User clicked on change passowrd
+2023-03-02 23:48:35,967 [main] INFO logger_File - User is on retail website
+2023-03-02 23:48:36,185 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:48:36,607 [main] INFO logger_File - user entered email and password
+2023-03-02 23:48:36,766 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:48:37,172 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:48:37,391 [main] INFO logger_File - User click on Account option
+2023-03-02 23:48:38,027 [main] INFO logger_File - User entered the new Password
+2023-03-02 23:48:38,162 [main] INFO logger_File - User clicked on change passowrd
+2023-03-02 23:50:48,313 [main] INFO logger_File - User is on retail website
+2023-03-02 23:50:48,564 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:50:49,008 [main] INFO logger_File - user entered email and password
+2023-03-02 23:50:49,164 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:51:55,621 [main] INFO logger_File - User is on retail website
+2023-03-02 23:51:55,875 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:51:56,321 [main] INFO logger_File - user entered email and password
+2023-03-02 23:51:56,473 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:51:56,934 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:51:57,190 [main] INFO logger_File - User click on Account option
+2023-03-02 23:51:57,786 [main] INFO logger_File - User entered the new Password
+2023-03-02 23:51:57,918 [main] INFO logger_File - User clicked on change passowrd
+2023-03-02 23:57:28,995 [main] INFO logger_File - User is on retail website
+2023-03-02 23:57:29,214 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-02 23:57:29,647 [main] INFO logger_File - user entered email and password
+2023-03-02 23:57:29,806 [main] INFO logger_File - user clicked on login button
+2023-03-02 23:57:30,236 [main] INFO logger_File - user is logged in into Account
+2023-03-02 23:57:30,457 [main] INFO logger_File - User click on Account option
+2023-03-02 23:57:31,053 [main] INFO logger_File - User entered the new Password
+2023-03-02 23:57:31,200 [main] INFO logger_File - User clicked on change passowrd
+2023-03-03 00:18:03,984 [main] INFO logger_File - User is on retail website
+2023-03-03 00:18:04,241 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-03 00:18:04,674 [main] INFO logger_File - user entered email and password
+2023-03-03 00:18:04,829 [main] INFO logger_File - user clicked on login button
+2023-03-03 00:18:05,332 [main] INFO logger_File - user is logged in into Account
+2023-03-03 00:18:05,573 [main] INFO logger_File - User click on Account option
+2023-03-03 00:18:06,171 [main] INFO logger_File - User entered the new Password
+2023-03-03 00:18:06,323 [main] INFO logger_File - User clicked on change passowrd
+2023-03-03 00:18:07,608 [main] INFO logger_File - Password Updated Successfully
+2023-03-05 00:00:21,908 [main] INFO logger_File - User is on retail website
+2023-03-05 00:00:22,167 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 00:00:22,614 [main] INFO logger_File - user entered email and password
+2023-03-05 00:00:22,777 [main] INFO logger_File - user clicked on login button
+2023-03-05 00:01:35,407 [main] INFO logger_File - User is on retail website
+2023-03-05 00:01:35,672 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 00:01:36,109 [main] INFO logger_File - user entered email and password
+2023-03-05 00:01:36,272 [main] INFO logger_File - user clicked on login button
+2023-03-05 00:01:36,824 [main] INFO logger_File - user is logged in into Account
+2023-03-05 00:01:37,102 [main] INFO logger_File - User click on Account option
+2023-03-05 00:01:37,273 [main] INFO logger_File - User clicked on Add a payment method link
+2023-03-05 00:01:38,028 [main] INFO logger_File - User Clicked on cardButton
+2023-03-05 00:01:38,901 [main] INFO logger_File - Payment add successfully
+2023-03-05 00:21:43,296 [main] INFO logger_File - User is on retail website
+2023-03-05 00:21:43,524 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 00:21:43,986 [main] INFO logger_File - user entered email and password
+2023-03-05 00:21:44,141 [main] INFO logger_File - user clicked on login button
+2023-03-05 00:21:44,546 [main] INFO logger_File - user is logged in into Account
+2023-03-05 00:21:44,808 [main] INFO logger_File - User click on Account option
+2023-03-05 00:21:45,243 [main] INFO logger_File - user Clicked on edit button
+2023-03-05 00:21:45,815 [main] INFO logger_File - The Data has been updated
+2023-03-05 00:21:45,993 [main] INFO logger_File - the user clicked in update card button
+2023-03-05 00:32:26,083 [main] INFO logger_File - User is on retail website
+2023-03-05 00:32:26,301 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 00:32:26,788 [main] INFO logger_File - user entered email and password
+2023-03-05 00:32:26,964 [main] INFO logger_File - user clicked on login button
+2023-03-05 00:32:27,359 [main] INFO logger_File - user is logged in into Account
+2023-03-05 00:32:27,626 [main] INFO logger_File - User click on Account option
+2023-03-05 00:32:28,154 [main] INFO logger_File - user Clicked on edit button
+2023-03-05 00:32:28,730 [main] INFO logger_File - The Data has been updated
+2023-03-05 00:32:28,898 [main] INFO logger_File - the user clicked in update card button
+2023-03-05 00:39:47,030 [main] INFO logger_File - User is on retail website
+2023-03-05 00:39:47,298 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 00:39:47,749 [main] INFO logger_File - user entered email and password
+2023-03-05 00:39:47,903 [main] INFO logger_File - user clicked on login button
+2023-03-05 00:39:48,428 [main] INFO logger_File - user is logged in into Account
+2023-03-05 00:39:48,714 [main] INFO logger_File - User click on Account option
+2023-03-05 00:39:48,888 [main] INFO logger_File - User clicked on Add a payment method link
+2023-03-05 00:39:49,681 [main] INFO logger_File - User Clicked on cardButton
+2023-03-05 00:39:50,519 [main] INFO logger_File - Payment add successfully
+2023-03-05 00:41:51,355 [main] INFO logger_File - User is on retail website
+2023-03-05 00:41:51,634 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 00:41:52,100 [main] INFO logger_File - user entered email and password
+2023-03-05 00:41:52,256 [main] INFO logger_File - user clicked on login button
+2023-03-05 00:41:52,867 [main] INFO logger_File - user is logged in into Account
+2023-03-05 00:41:53,139 [main] INFO logger_File - User click on Account option
+2023-03-05 00:41:53,302 [main] INFO logger_File - User clicked on Add a payment method link
+2023-03-05 00:41:54,116 [main] INFO logger_File - User Clicked on cardButton
+2023-03-05 00:41:55,000 [main] INFO logger_File - Payment add successfully
+2023-03-05 01:02:21,502 [main] INFO logger_File - User is on retail website
+2023-03-05 01:02:21,724 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 01:02:22,133 [main] INFO logger_File - user entered email and password
+2023-03-05 01:02:22,295 [main] INFO logger_File - user clicked on login button
+2023-03-05 01:02:22,694 [main] INFO logger_File - user is logged in into Account
+2023-03-05 01:02:22,913 [main] INFO logger_File - User click on Account option
+2023-03-05 01:02:23,744 [main] INFO logger_File - the card has been removed
+2023-03-05 01:02:23,745 [main] INFO logger_File - The Card has been removed 
+2023-03-05 01:03:05,621 [main] INFO logger_File - User is on retail website
+2023-03-05 01:03:05,896 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 01:03:06,335 [main] INFO logger_File - user entered email and password
+2023-03-05 01:03:06,509 [main] INFO logger_File - user clicked on login button
+2023-03-05 01:03:07,006 [main] INFO logger_File - user is logged in into Account
+2023-03-05 01:03:07,263 [main] INFO logger_File - User click on Account option
+2023-03-05 01:03:07,649 [main] INFO logger_File - the card has been removed
+2023-03-05 01:03:07,650 [main] INFO logger_File - The Card has been removed 
+2023-03-05 01:04:13,863 [main] INFO logger_File - User is on retail website
+2023-03-05 01:04:14,158 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 01:04:14,636 [main] INFO logger_File - user entered email and password
+2023-03-05 01:04:14,779 [main] INFO logger_File - user clicked on login button
+2023-03-05 01:04:15,263 [main] INFO logger_File - user is logged in into Account
+2023-03-05 01:04:15,510 [main] INFO logger_File - User click on Account option
+2023-03-05 01:04:15,960 [main] INFO logger_File - the card has been removed
+2023-03-05 01:04:17,965 [main] INFO logger_File - The Card has been removed 
+2023-03-05 01:05:00,019 [main] INFO logger_File - User is on retail website
+2023-03-05 01:05:00,314 [main] INFO logger_File - user clicked on Sign in Option
+2023-03-05 01:05:00,770 [main] INFO logger_File - user entered email and password
+2023-03-05 01:05:00,927 [main] INFO logger_File - user clicked on login button
+2023-03-05 01:05:01,702 [main] INFO logger_File - user is logged in into Account
+2023-03-05 01:05:01,927 [main] INFO logger_File - User click on Account option

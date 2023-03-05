@@ -28,8 +28,7 @@ public class SignInSteps extends CommonUtility {
     logger.info("user entered email and password");
   }
   @And("User click on login button")
-
-  public void userClickOnLoginButton() {
+public void userClickOnLoginButton() {
     click(factory.signInPage().loginButton);
     logger.info("user clicked on login button");
   }

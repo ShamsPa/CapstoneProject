@@ -29,7 +29,45 @@ public class RetailAccountPage extends BaseSetup {
 	@FindBy (xpath = "//div[text()='Personal Information Updated Successfully']")
 	public WebElement personlainfoUpdateMassage;
     
-    @FindBy(xpath = "//img[@alt='profile pic']") // this is same as driver.findElement() 
-    public WebElement accountProfilePicture;
+     @FindBy(xpath = "//img[@alt='profile pic']") // this is same as driver.findElement() 
+     public WebElement accountProfilePicture;
+     @FindBy(xpath = "//input[@id='previousPasswordInput']")
+     public WebElement previousPassword;
+     @FindBy(xpath ="//input[@id='newPasswordInput']")
+     public WebElement newPassword;
+     @FindBy(xpath ="//input[@id='confirmPasswordInput']")
+     public WebElement confirmPassword;
+     @FindBy(xpath ="//button[@id='credentialsSubmitBtn']")
+     public WebElement changePassword;
+     @FindBy(xpath ="//div[text()='Password Updated Successfully']")
+     public WebElement passwordUpdatedSuccessfully;
+     @FindBy(xpath ="//p[contains(text(),'Add a payment method')]")
+     public WebElement addPaymentMethod;
+     @FindBy(xpath ="//input[@id='cardNumberInput']")
+     public WebElement cardNumberInput;
+     @FindBy(xpath ="//input[@id='nameOnCardInput']")
+     public WebElement nameOnCardInput;
+     @FindBy(xpath ="//select[@id='expirationMonthInput']")
+     public WebElement expirationMonthInput; 
+     @FindBy(xpath="//select[@id='expirationYearInput']")
+     public WebElement expirationYearInput;
+     @FindBy(xpath ="//input[@id='securityCodeInput']")
+     public WebElement securityCodeInput;
+     @FindBy(xpath ="//button[@id='paymentSubmitBtn']")
+     public WebElement addYourCardtBtn;
+     @FindBy(xpath="//div[contains(text(),'Payment Method added sucessfully')]")
+     public WebElement paymentMethodadded;
+     @FindBy(xpath="//button[contains(text(),'Edit')]")
+     public WebElement editbtnForCard;
+     @FindBy (xpath="//button[@id='paymentSubmitBtn']")
+     public WebElement UpdatebtnForCard;
+     @FindBy(xpath ="//div[contains(text(),'Payment Method updated Successfully')]")
+     public WebElement paymentMethodUpdated;
+     @FindBy(xpath="//p[@class=('account__payment-sub-title')]")
+     public WebElement cardthatsNeedstoBeUpdated_Or_Removed;
+     @FindBy(xpath="//button[contains(text(),'remove')]")
+     public WebElement removeBtnForCard;
+    // @FindBy(xpath="//p[@class=('account__payment-sub-title')]")
+    // public WebElement clickOntoupdate;
     
 }
