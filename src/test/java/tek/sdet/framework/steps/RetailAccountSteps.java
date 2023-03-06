@@ -87,17 +87,14 @@ public class RetailAccountSteps extends CommonUtility {
     	 List < Map < String, String >> data = dataTable.asMaps(String.class, String.class);
     	 sendText(factory.accountPage().cardNumberInput,data.get(0).get("cardNumber"));
     	 sendText(factory.accountPage().nameOnCardInput,data.get(0).get("nameOnCard"));
-    	 Select(factory.accountPage().expirationMonthInput,data.get(0).get("expirationMonth"));
-    	 Select(factory.accountPage().expirationYearInput,data.get(0).get("expirationYear"));
+    	 selectByVisibleText(factory.accountPage().expirationMonthInput,data.get(0).get("expirationMonth"));
+    	 selectByVisibleText(factory.accountPage().expirationYearInput,data.get(0).get("expirationYear"));
     	 sendText(factory.accountPage().securityCodeInput,data.get(0).get("securityCode"));
     	// Select(factory.accountPage().expirationMonthInput,data.get(0).get("expirationMonth"));
     	 //(factory.accountPage().expirationMonthInput,data.get(0).get("expirationMonth"));
     	
     }
-    private void Select(WebElement expirationMonthInput, String string) {
-		// TODO Auto-generated method stub
-		
-	}
+    
     
 	@And ("User click on Add your card button")
     public void userClickOnAddYourCardBtn()
@@ -124,20 +121,17 @@ public class RetailAccountSteps extends CommonUtility {
     @And("user edit information with below data")
     public void userEditInformationWithBelowDatta(DataTable dataTable) {
     	List < Map < String, String >> data = dataTable.asMaps(String.class, String.class);
-    	clear(factory.accountPage().cardNumberInput);
+    	clearTextUsingSendKeys(factory.accountPage().cardNumberInput);
     	sendText(factory.accountPage().cardNumberInput,data.get(0).get("cardNumber"));
-    	clear(factory.accountPage().nameInput);
+    	clearTextUsingSendKeys(factory.accountPage().nameInput);
     	sendText(factory.accountPage().nameOnCardInput,data.get(0).get("nameOnCard"));
-    	Select(factory.accountPage().expirationMonthInput,data.get(0).get("expirationMonth"));
-   	 	Select(factory.accountPage().expirationYearInput,data.get(0).get("expirationYear"));
+    	selectByVisibleText(factory.accountPage().expirationMonthInput,data.get(0).get("expirationMonth"));
+    	selectByVisibleText(factory.accountPage().expirationYearInput,data.get(0).get("expirationYear"));
+   	 	clearTextUsingSendKeys(factory.accountPage().securityCodeInput);
    	 	sendText(factory.accountPage().securityCodeInput,data.get(0).get("securityCode"));
    	 	logger.info("The Data has been updated");
    	 	}
-    private void clear(WebElement cardNumberInput) {
-		// TODO Auto-generated method stub
-		
-	}
-	@And ("user click on Update Your Card button")
+    @And ("user click on Update Your Card button")
     public void userClickOnupdateYourCardbutton() {
     	click(factory.accountPage().UpdatebtnForCard);
     	logger.info("the user clicked in update card button");
@@ -163,6 +157,88 @@ public class RetailAccountSteps extends CommonUtility {
     	logger.info("The Card has been removed ");
     	
     }
+    @And ("User click on Add address option")
+    public void userClickonAddAddressopt() {
+    	click(factory.accountPage().addAddressbtn);
+    	logger.info("user clicked on add address option");
+    	}
+    @And ("user fill new address form with below information")
+    public void userFillThenewAddressForm(DataTable dataTable) {
+    	List < Map < String, String >> data = dataTable.asMaps(String.class, String.class);
+    	selectByVisibleText(factory.accountPage().countrydropDown,data.get(0).get("country"));
+    	sendText(factory.accountPage().fullNameInput,data.get(0).get("fullName"));
+    	sendText(factory.accountPage().phoneNumberInput,data.get(0).get("phoneNumber"));
+    	sendText(factory.accountPage().streetInput,data.get(0).get("streetAddress"));
+    	sendText(factory.accountPage().apartmentInput,data.get(0).get("apt"));
+      	sendText(factory.accountPage().cityInput,data.get(0).get("city"));
+      	selectByVisibleText(factory.accountPage().account__address_state,data.get(0).get("state"));
+      	sendText(factory.accountPage().zipCodeInput,data.get(0).get("zipCode"));
+      	logger.info("user filled the address form");
+    	}
+    @And("User click Add Your Address button")
+    public void userClickAddYourAddressButton() {
+    	click(factory.accountPage().addYourAddressBtnUpdate);
+    	logger.info("user clicked on Add Your Address button ");
+    	
+    }
+    @Then ("a message should be displayed ‘Address Added Successfully’")
+    public void addressAddedSuccessfully() {
+    	waitTillPresence(factory.accountPage().addressAddedSuccessfully);
+    	Assert.assertTrue(isElementDisplayed(factory.accountPage().addressAddedSuccessfully));
+    	logger.info("Address Added Successfully");
+    	  }
+    @And ("User click on edit address option")
+    public void userClickOnEditAddressoption() {
+    	click(factory.accountPage().editbtnforAddress);
+    	logger.info("User clicked on edit address option");
+    	
+    }
+    
+    @And("user fill new updated address form with below information")
+    public void userFilltheNewUpdatedAddress(DataTable dataTable) throws InterruptedException {
+    	List < Map < String, String >> data = dataTable.asMaps(String.class, String.class);	
+    	selectByVisibleText(factory.accountPage().countrydropDown,data.get(0).get("country"));
+    	clearTextUsingSendKeys(factory.accountPage().fullNameInput);
+    	sendText(factory.accountPage().fullNameInput,data.get(0).get("fullName"));
+    	clearTextUsingSendKeys(factory.accountPage().phoneNumberInput);
+    	sendText(factory.accountPage().phoneNumberInput,data.get(0).get("phoneNumber"));
+    	clearTextUsingSendKeys(factory.accountPage().streetInput);
+    	sendText(factory.accountPage().streetInput,data.get(0).get("streetAddress"));
+    	clearTextUsingSendKeys(factory.accountPage().apartmentInput);
+    	sendText(factory.accountPage().apartmentInput,data.get(0).get("apt"));
+    	clearTextUsingSendKeys(factory.accountPage().cityInput);
+      	sendText(factory.accountPage().cityInput,data.get(0).get("city"));
+      	selectByVisibleText(factory.accountPage().account__address_state,data.get(0).get("state"));
+      	clearTextUsingSendKeys(factory.accountPage().zipCodeInput);
+      	sendText(factory.accountPage().zipCodeInput,data.get(0).get("zipCode"));
+      	//click(factory.accountPage().account__address_state);
+      	logger.info(" user filled the new updated address form");
+    	
+    }
+    @And ("User click update Your Address button")
+    public void userClcickUpdateYOurAddressbtn() {
+    	click(factory.accountPage().updateYourAddress);
+    	logger.info("user clicked on update your address button");
+    	 }
+    @Then ("a message should be displayed ‘Address Updated Successfully’")
+    public void addressUpdatedSuccessfully() {
+    	waitTillPresence(factory.accountPage().addressUpdatedSuccessfully);
+    	Assert.assertTrue(isElementDisplayed(factory.accountPage().addressUpdatedSuccessfully));
+    	logger.info("Address Updated Successfully");
+    	
+    	
+    }
+    @And("User click on remove option of Address section")
+    public void userClickOnRemoveOptionOfAddressSection() {
+    	click(factory.accountPage().removebtnForAddress);
+    	logger.info("user clicked on remove button");
+    	
+    }
+    @Then("Address details should be removed")
+    public void addressDetailsShouldBeRemoved() throws InterruptedException {
+    	Thread.sleep(5000);
+    	logger.info("the address is now removed");
+    	}
     
     
 }

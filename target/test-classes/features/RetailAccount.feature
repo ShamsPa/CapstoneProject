@@ -44,3 +44,26 @@ Feature: Retail Account Page
   Scenario: Verify User can remove Debit or Credit card
     And User click on remove option of card section
     Then payment details should be removed
+
+  @AddingAddress
+  Scenario: Verify User can add an Address
+    And User click on Add address option
+    And user fill new address form with below information
+      | country       | fullName | phoneNumber | streetAddress | apt | city       | state      | zipCode |
+      | United States | Parwiz   |  9167774563 | 932 frank Ave | 123 | Elk Grover | California |   98765 |
+    And User click Add Your Address button
+    Then a message should be displayed ‘Address Added Successfully’
+
+  @UpdateAddress
+  Scenario: Verify User can edit an Address added on account
+    And User click on edit address option
+    And user fill new updated address form with below information
+      | country       | fullName | phoneNumber | streetAddress | apt | city    | state | zipCode |
+      | United States | Shams    |  9182348234 | 1234 Hon Ave  |  45 | Sac Hop | Ohio  |   65754 |
+    And User click update Your Address button
+    Then a message should be displayed ‘Address Updated Successfully’
+
+  @RemovingAddressTest
+  Scenario: Verify User can remove Address from Account
+    And User click on remove option of Address section
+    Then Address details should be removed
