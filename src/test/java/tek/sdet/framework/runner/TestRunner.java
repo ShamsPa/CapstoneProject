@@ -7,7 +7,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@RemovingAddressTest",
+		tags = "@TestFinal",
 		features = "classpath:features", // this is path to features folder
 		glue ="tek.sdet.framework",
 		dryRun = false,

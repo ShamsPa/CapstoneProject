@@ -61,7 +61,7 @@ public class RetailAccountPage extends BaseSetup {
      public WebElement editbtnForCard;
      @FindBy (xpath="//button[@id='paymentSubmitBtn']")
      public WebElement UpdatebtnForCard;
-     @FindBy(xpath ="//div[contains(text(),'Payment Method updated Successfully')]")
+     @FindBy(xpath ="Payment Method updated Successfully')]")
      public WebElement paymentMethodUpdated;
      @FindBy(xpath="//p[@class=('account__payment-sub-title')]")
      public WebElement cardthatsNeedstoBeUpdated_Or_Removed;
@@ -98,14 +98,5 @@ public class RetailAccountPage extends BaseSetup {
     @FindBy(xpath="//div[contains(text(),'Address Updated Successfully')]")
     public WebElement addressUpdatedSuccessfully;
     @FindBy(xpath="//button[contains(text(),'Remove')]")
-    public WebElement removebtnForAddress;
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    public WebElement removebtnForAddress;   
 }

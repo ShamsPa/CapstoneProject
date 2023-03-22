@@ -60,7 +60,7 @@ Feature: Retail Account Page
     And user fill new updated address form with below information
       | country       | fullName | phoneNumber | streetAddress | apt | city    | state | zipCode |
       | United States | Shams    |  9182348234 | 1234 Hon Ave  |  45 | Sac Hop | Ohio  |   65754 |
-    And User click update Your Address button
+    And User click Add Your Address button
     Then a message should be displayed ‘Address Updated Successfully’
 
   @RemovingAddressTest

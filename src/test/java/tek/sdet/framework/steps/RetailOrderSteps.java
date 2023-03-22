@@ -1,5 +1,6 @@
 package tek.sdet.framework.steps;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -7,7 +8,7 @@ import org.junit.Assert;
 import tek.sdet.framework.pages.POMFactory;
 import tek.sdet.framework.utilities.CommonUtility;
 
-public class RetailSteps extends CommonUtility{
+public class RetailOrderSteps extends CommonUtility{
 	POMFactory factory = new POMFactory();
 	
 	@Given("User is on retail website")
@@ -33,6 +34,14 @@ public class RetailSteps extends CommonUtility{
 		
 		
 	}
+	 @And ("User click on Orders section")
+	 public void clickOnOrdersSection() {
+		 
+	 }
+	 @And("User click on first order in list")
+	 public void userClickOnFirstOrderInList() {
+		 
+	 }
 	
 
 }

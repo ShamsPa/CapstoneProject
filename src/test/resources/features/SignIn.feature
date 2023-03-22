@@ -6,7 +6,7 @@ Feature: Retail SignIn feature
 
   @smokeTest @Regresion @FunctionalTestCase
   Scenario: Verify user can sign in into Retail Application
-    And User enter email 'phantom.test@gmail.com' and password 'Tek@12345'
+    And User enter email 'test.group@gmail.com' and password 'Lpcxpn12132@'
     And User click on login button
     Then User should be logged in into Account
 

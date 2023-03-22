@@ -77,7 +77,7 @@ public class RetailAccountSteps extends CommonUtility {
     	
     }
     @And ("User click on Add a payment method link")
-    public void userClickOnAddPaymentLink() {
+    public void userClickOnAddPayment() {
     	click(factory.accountPage().addPaymentMethod);
     	logger.info("User clicked on Add a payment method link");
     	
@@ -178,7 +178,7 @@ public class RetailAccountSteps extends CommonUtility {
     @And("User click Add Your Address button")
     public void userClickAddYourAddressButton() {
     	click(factory.accountPage().addYourAddressBtnUpdate);
-    	logger.info("user clicked on Add Your Address button ");
+    	logger.info("user clicked on Add Your Address button");
     	
     }
     @Then ("a message should be displayed ‘Address Added Successfully’")
@@ -239,8 +239,6 @@ public class RetailAccountSteps extends CommonUtility {
     	Thread.sleep(5000);
     	logger.info("the address is now removed");
     	}
-    
-    
 }
 	
 
