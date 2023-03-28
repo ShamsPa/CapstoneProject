@@ -4,7 +4,7 @@ Feature: Retail Home Page 
 Background: 
 Given User is on retail website
 		When User click on Sign in option
-    And User enter email 'test.group@gmail.com' and password 'Lpcxpn13132@'
+    And User enter email 'test.group@gmail.com' and password 'Kpccpn1313@'
     And User click on login button
     Then User should be logged in into Account
     

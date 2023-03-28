@@ -3,14 +3,14 @@ Feature: Retail Account Page
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'test.group@gmail.com' and password 'Lpcxpn13132@'
+    And User enter email 'test.group@gmail.com' and password 'Kpccpn1313@'
     And User click on login button
     And User should be logged in into Account
     When User click on Account option
 
   @Updateprofile @AccountTest @finalTestforAll
   Scenario: Verify User can update Profile Information
-    And User update Name 'Rouhge' and Phone '9166681342'
+    And User update Name 'Lomar' and Phone '9162681342'
     And User click on Update button
     Then user profile information should be updated
 
@@ -18,7 +18,7 @@ Feature: Retail Account Page
   Scenario: Verify User can Update password
     And User enter below information
       | previousPassword | newPassword | confirmPassword |
-      | Lpcxpn13132@     | Kpccpn1313@ | Kpccpn1313@     |
+      | Kpccpn1313@     | Qqccpn1313@ | Qqccpn1313@     |
     And User click on Change Password button
     Then a message should be displayed 'Password Updated Successfully'
 
