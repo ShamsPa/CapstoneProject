@@ -1,19 +1,14 @@
+@Regression
 Feature: Retail Home Page 
 
 Background: 
 Given User is on retail website
 		When User click on Sign in option
-    And User enter email 'test.group@gmail.com' and password 'Lpcxpn12132@'
+    And User enter email 'test.group@gmail.com' and password 'Lpcxpn13132@'
     And User click on login button
     Then User should be logged in into Account
     
-@clickon
-	Scenario: Verify Shop by Department sidebar
-	When User click on All section 
-		Then below options are present in Shop by Department sidebar
-		|'Electronics'|'Computers'|'Smart Home'|'Sports'|'Automative'|
-
-@retailHomePage
+@retailHomePage @finalTestforAll
     Scenario Outline: Verify department sidebar options
   	When User click on All section
       And User on <department>
@@ -28,17 +23,17 @@ Given User is on retail website
         | 'Sports'      | Athletic Clothing              | Exercise & Fitness       |
         | 'Automotive'  | Automative Parts & Accessories | MotorCycle & Powersports |
   
-  @addItemtocart
+  @addItemtocart @finalTestforAll
   Scenario: Verify User can add an item to cart
     And User change the category to 'Smart Home'
 		And User search for an item 'kasa outdoor smart plug'
 		And User click on Search icon
 		And User click on item 
-		And User select quantity '2'
+		And User select quantity '2' 
 		And User click add to Cart button 
 		Then the cart icon quantity should change to '2'
 		
-		@Test004
+		@Test004 @finalTestforAll
 		Scenario: Verify User can place an order without Shipping address and payment Method on file
 		And User click on Cart option 
 		And User click on Proceed to Checkout button
@@ -55,7 +50,7 @@ Given User is on retail website
 		And User click on Place Your Order
 		Then a message should be displayed 'Order Placed, Thanks'
 		
-		@TestFinal
+		@TestFinal @finalTestforAll
 		Scenario: Verify User can place an order with Shipping address and payment Method on file
 		And User change the category to 'Electronics'
 		And User search for an item 'Apex Legends'

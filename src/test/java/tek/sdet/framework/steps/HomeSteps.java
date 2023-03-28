@@ -158,7 +158,7 @@ public class HomeSteps extends CommonUtility{
 		  logger.info("User Clicked on place order Btn");
 		}
 		@Then("a message should be displayed 'Order Placed, Thanks'") 
-		public void Then_a_message_should_be_displayed_Order_Placed() {
+		public void Then_a_message_should_be_displayed_Order_Placed() { 
 		  waitTillPresence(factory.homePage().orderPlacedThanks);
 		  Assert.assertTrue(isElementDisplayed(factory.homePage().orderPlacedThanks));
 		  logger.info("Order placed,thanks");

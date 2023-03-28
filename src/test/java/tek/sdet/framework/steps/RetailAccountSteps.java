@@ -136,24 +136,24 @@ public class RetailAccountSteps extends CommonUtility {
     	click(factory.accountPage().UpdatebtnForCard);
     	logger.info("the user clicked in update card button");
     	 }
-    @Then("a message should be displayed ‘Payment Method updated Successfully")
+    @Then("a message should be displayed 'Payment Method updated Successfully'")
     public void paymentMehtodUpdatedSuccessfully() {
     	waitTillPresence(factory.accountPage().paymentMethodUpdated);
     	Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentMethodUpdated));
     	logger.info("Payment Method updated Successfully");
     	}
     @And("User click on remove option of card section")
-    public void userClickOnRemovebtn() {
+    public void userClickOnRemovebtn() throws InterruptedException {
     	click(factory.accountPage().cardthatsNeedstoBeUpdated_Or_Removed);
     	waitTillPresence(factory.accountPage().removeBtnForCard);
     	click(factory.accountPage().removeBtnForCard);
+    	Thread.sleep(3000);
     	logger.info("the card has been removed");
     	
     	
     }
     @Then("payment details should be removed")
     public void paymentDetailsShouldbeRemoved()  {
-    	//Thread.sleep(5000);
     	logger.info("The Card has been removed ");
     	
     }
